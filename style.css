@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: black; /* Arka planı siyah yap */
+    color: white; /* Yazıları beyaz yap */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Sayfanın başından başlasın */
+    min-height: 100vh; /* Minimum ekran yüksekliği */
+    padding: 20px;
+    overflow-y: auto; /* Sayfayı kaydırılabilir yap */
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    padding: 20px;
+    background-color: #333; /* Konteynerin arka planını koyu gri yap */
+    border: 1px solid #444; /* Konteynerin kenar rengini koyu yap */
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+    color: #ddd; /* Açık gri yazı rengi */
+}
+
+.table-section {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid white; /* Beyaz tablo kenarları */
+}
+
+th, td {
+    padding: 12px;
+    text-align: center; /* Yatayda ortala */
+    vertical-align: middle; /* Dikeyde ortala */
+    height: 50px; /* Hücre yüksekliği */
+    color: white; /* Yazıları beyaz yap */
+}
+
+th {
+    background-color: #444; /* Başlıkların arka planını koyu gri yap */
+}
+
+a {
+    text-decoration: none;
+    color: #66ccff; /* Bağlantılar için açık mavi renk */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ffcc66; /* Üzerine gelince bağlantı rengi sarıya dönsün */
+}
+
+/* Mevcut CSS kodu */
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px; /* İkonlar arasına boşluk bırak */
+}
+
+.social-links img {
+    width: 30px; /* İkonların genişliği */
+    height: auto; /* Orantıyı koru */
+    vertical-align: middle; /* İkonları hizala */
+    transition: transform 0.3s ease; /* Hover efektine geçiş ekle */
+}
+
+.social-links img:hover {
+    transform: scale(1.1); /* Üzerine gelince büyütme efekti */
+}
